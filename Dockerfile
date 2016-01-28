@@ -1,6 +1,7 @@
 # UDPxy service based on latest debian
 # Listening for connections on $LISTEN_IP and $LISTEN_PORT
 # Requesting multicast from $MCAST_IFACE
+# Limiting clients number to $MAX_CLIENTS
 
 FROM debian
 
